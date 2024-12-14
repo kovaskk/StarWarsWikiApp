@@ -80,7 +80,7 @@ public class StarWarsGUI extends Application {
 
 
             Scene scene = new Scene(root, 600, 400);
-            primaryStage.setTitle("Звёздные войны вики");
+            primaryStage.setTitle("StarWarsWiki");
             primaryStage.setScene(scene);
             primaryStage.show();
 

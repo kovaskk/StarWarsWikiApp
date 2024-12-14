@@ -41,7 +41,7 @@ public class StarWarsAPI {
             logger.debug("Закодированный запрос: {}", encodedQuery);
             return getRequest(httpGet);
         } catch (UnsupportedEncodingException e) {
-            logger.error("Ошибка кодирования для запроса: {}", searchQuery, e);
+            logger.error("Ошибка кодирования для запроса: {}", searchQuery);
             throw new ApiException("Ошибка кодирования запроса: " + searchQuery, e);
         }
     }
@@ -89,7 +89,7 @@ public class StarWarsAPI {
             logger.info("Метод getRequest успешно завершён.");
             return jsonObject;
         } catch (Exception e) {
-            logger.error("Неожиданная ошибка во время запроса: {}", getRequest.getURI(), e);
+            logger.error("Неожиданная ошибка во время запроса: {}", getRequest.getURI());
             throw new ApiException("Неожиданная ошибка при выполнении запроса: " + getRequest.getURI(), e);
         }
     }
@@ -106,7 +106,7 @@ public class StarWarsAPI {
         try {
             return new com.google.gson.JsonParser().parse(json).getAsJsonObject();
         } catch (ApiException e) {
-            logger.error("Ошибка при десериализации JSON: {}", json, e);
+            logger.error("Ошибка при десериализации JSON: {}", json);
             throw new ApiException("Ошибка десериализации JSON: " + json, e);
         }
     }
@@ -136,7 +136,7 @@ public class StarWarsAPI {
             HttpGet httpGet = new HttpGet(uri);
             return getRequest(httpGet);
         } catch (InvalidResponseException e) {
-            logger.error("Ошибка при внутреннем запросе для URI: {}", uri, e);
+            logger.error("Ошибка при внутреннем запросе для URI: {}", uri);
             throw new InvalidResponseException("Ошибка выполнения внутреннего запроса: " + uri);
         }
     }

@@ -79,7 +79,7 @@ public class SWAPIService {
     public CharactersDTO getPerson(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем персонажа: {}", query);
-        JsonObject response = api.getBuilder("people", query);
+        JsonObject response = api.getBuilder("people", query.toLowerCase());
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Персонаж не найден: {}", query);
             throw new NotFoundException("Персонаж не найден.");
@@ -118,7 +118,7 @@ public class SWAPIService {
     public PlanetDTO getPlanet(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем планету: {}", query);
-        JsonObject response = api.getBuilder("planets", query);
+        JsonObject response = api.getBuilder("planets", query.toLowerCase());
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Планета не найдена: {}", query);
             throw new NotFoundException("Планета не найдена.");
@@ -161,7 +161,7 @@ public class SWAPIService {
     public StarshipsDTO getStarship(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем корабль: {}", query);
-        JsonObject response = api.getBuilder("starships", query);
+        JsonObject response = api.getBuilder("starships", query.toLowerCase());
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Корабль не найден: {}", query);
             throw new NotFoundException("Корабль не найден.");
