@@ -1,0 +1,44 @@
+[2024-12-14 22:40:25] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: а
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> Yoda
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: Yoda
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: Yoda
+[2024-12-14 22:40:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: Yoda
+[2024-12-14 22:40:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Yoda
+[2024-12-14 22:40:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 22:40:31] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 22:40:31] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: Yoda
+[2024-12-14 22:40:38] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: Yoda
+[2024-12-14 22:40:38] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Yoda
+[2024-12-14 22:40:38] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 22:40:38] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 22:40:38] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=Yoda
+[2024-12-14 22:40:50] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: мур
+[2024-12-14 22:50:43] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: а
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> Yoda
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-14 22:50:48] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-14 22:50:48] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 22:50:49] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 22:50:49] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 22:50:49] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 22:57:29] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: а
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-14 22:57:33] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-14 22:57:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 22:57:45] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 22:57:45] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 22:57:45] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
