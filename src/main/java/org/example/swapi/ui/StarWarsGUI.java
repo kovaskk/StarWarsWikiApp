@@ -58,7 +58,7 @@ public class StarWarsGUI extends Application {
                     logger.error("Ошибка пользователя: {}", e.getMessage());
                     showAlert(Alert.AlertType.WARNING, "Ошибка", e.getMessage());
                 } catch (Exception e) {
-                    logger.error("Непредвиденная ошибка при выполнении запроса: {}", query, e);
+                    logger.error("Непредвиденная ошибка при выполнении запроса: {}", query);
                     showAlert(Alert.AlertType.ERROR, "Критическая ошибка", "Произошла непредвиденная ошибка. Попробуйте позже.");
                 }
             });
