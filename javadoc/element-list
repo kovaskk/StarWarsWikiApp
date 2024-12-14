@@ -1,0 +1,4 @@
+org.example.swapi.dto
+org.example.swapi.exceptions
+org.example.swapi.service
+org.example.swapi.ui

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.example.swapi.dto"},{"l":"org.example.swapi.exceptions"},{"l":"org.example.swapi.service"},{"l":"org.example.swapi.ui"}];updateSearchResults();
