@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StarWarsWiki:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StarWarsWiki_jar</output-path>
+    <root id="archive" name="StarWarsWiki.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="StarWarsWiki.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/21.0.5/fba5769f62c2b503924b4f131adeaf818c403f4e/javafx-controls-21.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/21.0.5/fff3d317e9e5ef3eda055bf3624720b5c5f4ed49/javafx-graphics-21.0.5-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/853b96d3afbb7bf8cc303fe27ee96836a10c1834/httpcore-4.4.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/21.0.5/c9c1cf2d52bc7dd7b20dab3157963f8aaaf38e47/javafx-base-21.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/21.0.5/350837836014091df30d45dd67c89122ad385439/javafx-graphics-21.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/21.0.5/be70cdbaba4dd1ff78a570eada78affbbff0a45b/javafx-base-21.0.5-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/21.0.5/b0ec9e085b2e0196278905388e865119263736df/javafx-controls-21.0.5-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.20.0/1fe6082e660daf07c689a89c94dc0f49c26b44bb/log4j-api-2.20.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/21.0.5/dd93d33052d0d5e0256cf3658fc6a2e2755d1f9b/javafx-fxml-21.0.5-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.20.0/eb2a9a47b1396e00b5eee1264296729a70565cc0/log4j-core-2.20.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

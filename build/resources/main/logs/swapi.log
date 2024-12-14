@@ -1,0 +1,184 @@
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Йода -> Yoda
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Yoda -> Yoda
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: Yoda
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: Yoda
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Yoda
+2024-12-14 03:17:57 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Yoda
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:09 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/4/
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/4/
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/5/
+2024-12-14 03:18:10 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/5/
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Персонаж успешно найден: Yoda
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/planets/28/
+2024-12-14 03:18:11 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/28/
+2024-12-14 03:18:12 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:12 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:16 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Запрос не найден в словаре: й
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Палач -> Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:20 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/people/?search=Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:20 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Персонаж не найден: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем планету: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: planets и searchQuery: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:20 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:20 [JavaFX Application Thread] WARN  org.example.swapi.service.SWAPIService - Планета не найдена: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем корабль: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: starships и searchQuery: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/starships/?search=Executor
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:20 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Корабль успешно найден: Executor
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Люк Скайуокер -> Luke Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Luke Skywalker -> Luke Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: Luke Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: Luke Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Luke Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Luke+Skywalker
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/1/
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/1/
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:28 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Персонаж успешно найден: Luke Skywalker
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/planets/1/
+2024-12-14 03:18:29 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/1/
+2024-12-14 03:18:30 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:30 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:36 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Запрос не найден в словаре: С-3РО
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: С-3ПО -> C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: C-3PO -> C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=C-3PO
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/1/
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/1/
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:40 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/2/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/3/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/4/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/4/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/5/
+2024-12-14 03:18:41 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/5/
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/films/6/
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Персонаж успешно найден: C-3PO
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода innerRequest с URI: https://swapi.dev/api/planets/1/
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/1/
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 03:18:42 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 08:44:10 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Запрос не найден в словаре: q
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Палач -> Executor
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: Executor
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: Executor
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 08:44:19 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 08:44:21 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/people/?search=Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 08:44:21 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Персонаж не найден: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем планету: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: planets и searchQuery: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 08:44:21 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 08:44:21 [JavaFX Application Thread] WARN  org.example.swapi.service.SWAPIService - Планета не найдена: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем корабль: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: starships и searchQuery: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/starships/?search=Executor
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 08:44:21 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Корабль успешно найден: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Палач -> Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем персонажа: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: people и searchQuery: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 12:32:50 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/people/?search=Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 12:32:50 [JavaFX Application Thread] WARN  org.example.swapi.service.SWAPIService - Персонаж не найден: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем планету: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: planets и searchQuery: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 12:32:50 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 12:32:51 [JavaFX Application Thread] WARN  org.example.swapi.service.StarWarsAPI - Пустые результаты для запроса: https://swapi.dev/api/planets/?search=Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 12:32:51 [JavaFX Application Thread] WARN  org.example.swapi.service.SWAPIService - Планета не найдена: Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Переводим запрос: Executor -> Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Ищем корабль: Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getBuilder с path: starships и searchQuery: Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода encodeQuery с запросом: Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода getRequest с URI: https://swapi.dev/api/starships/?search=Executor
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Запуск метода deserialize.
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.StarWarsAPI - Метод getRequest успешно завершён.
+2024-12-14 12:32:51 [JavaFX Application Thread] INFO  org.example.swapi.service.SWAPIService - Корабль успешно найден: Executor
+2024-12-14 12:33:20 [JavaFX Application Thread] ERROR org.example.swapi.service.SWAPIService - Запрос не найден в словаре: мяу

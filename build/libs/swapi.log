@@ -1,0 +1,48 @@
+[2024-12-14 14:54:37] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: а
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> Yoda
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: Yoda
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: Yoda
+[2024-12-14 14:54:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: Yoda
+[2024-12-14 14:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=Yoda
+[2024-12-14 14:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:43] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/films/2/
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/films/2/
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/films/2/
+[2024-12-14 14:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:43] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/films/3/
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/films/3/
+[2024-12-14 14:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/films/3/
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/films/4/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/films/4/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/films/4/
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/films/5/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/films/5/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/films/5/
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:44] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/films/6/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/films/6/
+[2024-12-14 14:54:44] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/films/6/
+[2024-12-14 14:54:45] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.SWAPIService] - Персонаж успешно найден: Yoda
+[2024-12-14 14:54:45] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.dev/api/planets/28/
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.dev/api/planets/28/
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/planets/28/
+[2024-12-14 14:54:45] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-14 14:54:45] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
