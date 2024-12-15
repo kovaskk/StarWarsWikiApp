@@ -36,7 +36,7 @@ public class StarWarsAPI {
         HttpGet httpGet;
 
         try {
-            String encodedQuery = encodeQuery(searchQuery);
+            String encodedQuery = encodeQuery(searchQuery.toLowerCase());
             httpGet = new HttpGet("https://swapi.dev/api/" + path + "/?search=" + encodedQuery);
             logger.debug("Закодированный запрос: {}", encodedQuery);
             return getRequest(httpGet);
@@ -83,7 +83,7 @@ public class StarWarsAPI {
             bufferedReader.close();
 
             if (jsonObject.has("results") && jsonObject.getAsJsonArray("results").isEmpty()) {
-                logger.warn("Пустые результаты для запроса: {}", getRequest.getURI());
+                logger.warn("Пустой результат для запроса: {}", getRequest.getURI());
             }
 
             logger.info("Метод getRequest успешно завершён.");

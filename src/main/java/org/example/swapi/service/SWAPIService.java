@@ -39,7 +39,7 @@ public class SWAPIService {
      * @throws IllegalArgumentException если запрос отсутствует в словаре
      */
     public String translateToEnglish(String query) throws IllegalArgumentException{
-        String translation = dictionary.getTranslation(query);
+        String translation = dictionary.getTranslation(query.toLowerCase());
         if (translation == null) {
             logger.error("Запрос не найден в словаре: {}", query);
             throw new IllegalArgumentException("Запрос \"" + query + "\" не найден в словаре. Проверьте правильность ввода.");
@@ -79,7 +79,7 @@ public class SWAPIService {
     public CharactersDTO getPerson(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем персонажа: {}", query);
-        JsonObject response = api.getBuilder("people", query.toLowerCase());
+        JsonObject response = api.getBuilder("people", query);
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Персонаж не найден: {}", query);
             throw new NotFoundException("Персонаж не найден.");
@@ -118,7 +118,7 @@ public class SWAPIService {
     public PlanetDTO getPlanet(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем планету: {}", query);
-        JsonObject response = api.getBuilder("planets", query.toLowerCase());
+        JsonObject response = api.getBuilder("planets", query);
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Планета не найдена: {}", query);
             throw new NotFoundException("Планета не найдена.");
@@ -161,7 +161,7 @@ public class SWAPIService {
     public StarshipsDTO getStarship(String query) throws NotFoundException {
         query = translateToEnglish(query);
         logger.info("Ищем корабль: {}", query);
-        JsonObject response = api.getBuilder("starships", query.toLowerCase());
+        JsonObject response = api.getBuilder("starships", query);
         if (response.getAsJsonArray("results").isEmpty()) {
             logger.warn("Корабль не найден: {}", query);
             throw new NotFoundException("Корабль не найден.");

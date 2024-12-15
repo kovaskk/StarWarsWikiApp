@@ -42,3 +42,67 @@
 [2024-12-14 22:57:45] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
 [2024-12-14 22:57:45] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
 [2024-12-14 22:57:45] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:21:31] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: а
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> Yoda
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Yoda -> Yoda
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: Yoda
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: Yoda
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-14 23:21:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-14 23:21:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:21:35] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 23:21:35] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 23:21:35] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:22:12] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: йода
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: йода -> yoda
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-14 23:27:32] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-14 23:27:32] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:27:32] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 23:27:32] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 23:27:32] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:27:42] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: йОдА
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: ЙоДа -> yoda
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-14 23:28:55] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-14 23:28:55] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-14 23:28:56] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-14 23:28:56] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-14 23:28:56] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-15 16:44:35] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: й
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> yoda
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-15 16:44:41] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-15 16:44:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.tech/api/people/?search=yoda
+[2024-12-15 16:44:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-15 16:44:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-15 16:44:42] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Палач -> executor
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: executor
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: executor
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-15 16:46:07] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-15 16:46:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.tech/api/people/?search=executor
+[2024-12-15 16:46:08] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-15 16:46:08] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-15 16:46:08] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Люк Скайуокер -> luke skywalker
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: luke skywalker -> luke skywalker
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: luke skywalker
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: luke skywalker
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: luke skywalker
+[2024-12-15 16:47:08] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: luke+skywalker
+[2024-12-15 16:47:08] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.tech/api/people/?search=luke+skywalker
+[2024-12-15 16:47:09] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-15 16:47:09] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-15 16:47:09] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.

@@ -19,40 +19,40 @@ public class Dictionary {
         dictionary = new HashMap<>();
 
         // Персонажи
-        dictionary.put("Люк Скайуокер", "Luke Skywalker");
-        dictionary.put("Дарт Вейдер", "Darth Vader");
-        dictionary.put("Лея Органа", "Leia Organa");
-        dictionary.put("Хан Соло", "Han Solo");
-        dictionary.put("Чубакка", "Chewbacca");
-        dictionary.put("Р2-Д2", "R2-D2");
-        dictionary.put("С-3ПО", "C-3PO");
-        dictionary.put("Йода", "Yoda");
-        dictionary.put("Оби-Ван Кеноби", "Obi-Wan Kenobi");
-        dictionary.put("Палпатин", "Palpatine");
+        dictionary.put("люк скайуокер", "luke skywalker");
+        dictionary.put("дарт вейдер", "darth vader");
+        dictionary.put("лея органа", "leia organa");
+        dictionary.put("хан соло", "han solo");
+        dictionary.put("чубакка", "chewbacca");
+        dictionary.put("р2-д2", "r2-d2");
+        dictionary.put("с-3пО", "c-3po");
+        dictionary.put("йода", "yoda");
+        dictionary.put("оби-ван кеноби", "obi-wan kenobi");
+        dictionary.put("палпатин", "palpatine");
 
         // Планеты
-        dictionary.put("Татуин", "Tatooine");
-        dictionary.put("Алдероан", "Alderaan");
-        dictionary.put("Хот", "Hoth");
-        dictionary.put("Дагоба", "Dagobah");
-        dictionary.put("Эндор", "Endor");
-        dictionary.put("Корусант", "Coruscant");
-        dictionary.put("Набу", "Naboo");
-        dictionary.put("Джакку", "Jakku");
-        dictionary.put("Мустафар", "Mustafar");
-        dictionary.put("Суллуст", "Sullust");
+        dictionary.put("татуин", "tatooine");
+        dictionary.put("алдероан", "alderaan");
+        dictionary.put("хот", "hoth");
+        dictionary.put("дагоба", "dagobah");
+        dictionary.put("эндор", "endor");
+        dictionary.put("корусант", "coruscant");
+        dictionary.put("набу", "naboo");
+        dictionary.put("джакку", "jakku");
+        dictionary.put("мустафар", "mustafar");
+        dictionary.put("суллуст", "sullust");
 
         // Корабли
-        dictionary.put("Тысячелетний Сокол", "Millennium Falcon");
-        dictionary.put("X-крыло", "X-Wing");
-        dictionary.put("TIE-истребитель", "TIE Advanced x1");
-        dictionary.put("Имперский шаттл", "Imperial Shuttle");
-        dictionary.put("Раб 1", "Slave 1");
-        dictionary.put("Звезда Смерти", "Death Star");
-        dictionary.put("Транспорт Повстанцев", "Rebel Transport");
-        dictionary.put("Десантный корабль класса Сентинел", "Sentinel-class landing craft");
-        dictionary.put("Звёздный разрушитель", "Star Destroyer");
-        dictionary.put("Палач", "Executor");
+        dictionary.put("тысячелетний сокол", "millennium Falcon");
+        dictionary.put("x-крыло", "x-wing");
+        dictionary.put("tie-истребитель", "tie advanced x1");
+        dictionary.put("имперский шаттл", "imperial shuttle");
+        dictionary.put("раб 1", "slave 1");
+        dictionary.put("звезда смерти", "death star");
+        dictionary.put("транспорт повстанцев", "rebel transport");
+        dictionary.put("десантный корабль класса сентинел", "sentinel-class landing craft");
+        dictionary.put("звёздный разрушитель", "star destroyer");
+        dictionary.put("палач", "executor");
     }
 
     /**
