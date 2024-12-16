@@ -13,7 +13,6 @@ import org.example.swapi.exceptions.NotFoundException;
 public class QuerySwitcher {
 
     private static final Logger logger = LogManager.getLogger(QuerySwitcher.class);
-
     private final SWAPIService swapiService;
 
     /**
@@ -39,11 +38,11 @@ public class QuerySwitcher {
             CharactersDTO character = swapiService.getPerson(translatedQuery);
             return "Имя: " + character.getName() + "\n" +
                     "Родной мир: " + swapiService.getNameFromUrl(character.getHomeworld()) + "\n" +
-                    "Год рождения: " + character.getBirth_year() + "\n" +
+                    "Год рождения: " + character.getBirthYear() + "\n" +
                     "Пол: " + character.getGender() + "\n" +
                     "Фильмы: " + String.join(", ", character.getFilms());
         } catch (NotFoundException e) {
-            logger.debug("Запрос не является запросом персонажа: {}", translatedQuery, e);
+            logger.debug("Запрос не является запросом персонажа: {}", translatedQuery);
         }
 
         try {
@@ -58,7 +57,7 @@ public class QuerySwitcher {
                     "Рельеф: " + planet.getTerrain() + "\n" +
                     "Фильмы: " + String.join(", ", planet.getFilms());
         } catch (NotFoundException e) {
-            logger.debug("Запрос не является запросом планеты: {}", translatedQuery, e);
+            logger.debug("Запрос не является запросом планеты: {}", translatedQuery);
         }
 
         try {
@@ -73,7 +72,7 @@ public class QuerySwitcher {
                     "Грузоподъемность: " + starship.getCargoCapacity() + "\n" +
                     "Стоимость: " + starship.getCostInCredits() + "\n";
         } catch (NotFoundException e) {
-            logger.debug("Запрос не является запросом корабля: {}", translatedQuery, e);
+            logger.debug("Запрос не является запросом корабля: {}", translatedQuery);
         }
 
         logger.warn("Запрос не соответствует ни одной известной категории: {}", query);

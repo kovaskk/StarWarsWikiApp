@@ -106,3 +106,521 @@
 [2024-12-15 16:47:09] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
 [2024-12-15 16:47:09] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
 [2024-12-15 16:47:09] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 04:47:26] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: й
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: йОдА -> yoda
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-16 04:48:24] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-16 04:48:24] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-16 04:48:25] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-16 04:48:25] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-16 04:48:25] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: йОдА -> yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-16 04:49:07] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-16 04:49:07] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.dev/api/people/?search=yoda
+[2024-12-16 04:49:07] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-16 04:49:07] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-16 04:49:07] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.dev/api/people/?search=yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-16 19:49:56] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-16 19:49:56] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/apipeople/?search=yoda
+[2024-12-16 19:49:57] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 404
+[2024-12-16 19:49:57] [ERROR] [o.e.s.s.StarWarsAPI] - API вернул не 200 статус: 404
+[2024-12-16 19:49:57] [ERROR] [o.e.s.s.StarWarsAPI] - Неожиданная ошибка во время запроса: https://swapi.py4e.com/apipeople/?search=yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-16 19:50:19] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-16 19:50:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=yoda
+[2024-12-16 19:50:20] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:20] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/2/
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-16 19:50:20] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:20] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/3/
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-16 19:50:20] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-16 19:50:21] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:21] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:21] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:21] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/4/
+[2024-12-16 19:50:21] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-16 19:50:21] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-16 19:50:22] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:22] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:22] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:22] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/5/
+[2024-12-16 19:50:22] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-16 19:50:22] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-16 19:50:23] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:23] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:23] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:23] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/6/
+[2024-12-16 19:50:23] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-16 19:50:23] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-16 19:50:25] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.SWAPIService] - Персонаж успешно найден: Yoda
+[2024-12-16 19:50:25] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/planets/28/
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/planets/28/
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/28/
+[2024-12-16 19:50:25] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 19:50:25] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: палач -> executor
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: executor
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: executor
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:05:19] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:05:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:05:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:05:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:05:31] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:05:31] [WARN] [o.e.s.s.SWAPIService] - Персонаж не найден: executor
+[2024-12-16 20:05:31] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом персонажа: executor
+org.example.swapi.exceptions.NotFoundException: Персонаж не найден.
+	at org.example.swapi.service.SWAPIService.getPerson(SWAPIService.java:85) ~[main/:?]
+	at org.example.swapi.service.QuerySwitcher.handleQuery(QuerySwitcher.java:38) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.fetchResult(StarWarsGUI.java:102) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.lambda$start$0(StarWarsGUI.java:55) ~[main/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.SWAPIService] - Ищем планету: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: planets и searchQuery: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:05:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:05:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:05:31] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:05:31] [WARN] [o.e.s.s.SWAPIService] - Планета не найдена: executor
+[2024-12-16 20:05:31] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом планеты: executor
+org.example.swapi.exceptions.NotFoundException: Планета не найдена.
+	at org.example.swapi.service.SWAPIService.getPlanet(SWAPIService.java:124) ~[main/:?]
+	at org.example.swapi.service.QuerySwitcher.handleQuery(QuerySwitcher.java:49) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.fetchResult(StarWarsGUI.java:102) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.lambda$start$0(StarWarsGUI.java:55) ~[main/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.SWAPIService] - Ищем корабль: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: starships и searchQuery: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:05:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:05:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/starships/?search=executor
+[2024-12-16 20:05:33] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:05:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:05:33] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:05:33] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: ЛюК сКаЙуОКеР -> luke skywalker
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: luke skywalker -> luke skywalker
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: luke skywalker
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: luke skywalker
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: luke skywalker
+[2024-12-16 20:08:29] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: luke+skywalker
+[2024-12-16 20:08:29] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=luke+skywalker
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/1/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/2/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/3/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/6/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:30] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/7/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/7/
+[2024-12-16 20:08:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/7/
+[2024-12-16 20:08:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:31] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:31] [INFO] [o.e.s.s.SWAPIService] - Персонаж успешно найден: Luke Skywalker
+[2024-12-16 20:08:31] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/planets/1/
+[2024-12-16 20:08:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/planets/1/
+[2024-12-16 20:08:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/1/
+[2024-12-16 20:08:32] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:08:32] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:08:32] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:08:40] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: А
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: пАлАч -> executor
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: executor
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: executor
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:14:19] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:14:19] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:14:30] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:14:30] [WARN] [o.e.s.s.SWAPIService] - Персонаж не найден: executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом персонажа: executor
+org.example.swapi.exceptions.NotFoundException: Персонаж не найден.
+	at org.example.swapi.service.SWAPIService.getPerson(SWAPIService.java:85) ~[main/:?]
+	at org.example.swapi.service.QuerySwitcher.handleQuery(QuerySwitcher.java:38) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.fetchResult(StarWarsGUI.java:102) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.lambda$start$0(StarWarsGUI.java:55) ~[main/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.SWAPIService] - Ищем планету: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: planets и searchQuery: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:14:30] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:14:30] [WARN] [o.e.s.s.SWAPIService] - Планета не найдена: executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом планеты: executor
+org.example.swapi.exceptions.NotFoundException: Планета не найдена.
+	at org.example.swapi.service.SWAPIService.getPlanet(SWAPIService.java:124) ~[main/:?]
+	at org.example.swapi.service.QuerySwitcher.handleQuery(QuerySwitcher.java:49) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.fetchResult(StarWarsGUI.java:102) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.lambda$start$0(StarWarsGUI.java:55) ~[main/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.SWAPIService] - Ищем корабль: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: starships и searchQuery: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:14:30] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:14:30] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/starships/?search=executor
+[2024-12-16 20:14:31] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:14:31] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:14:31] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:14:31] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Executor -> executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:13] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:13] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:17:14] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:17:14] [WARN] [o.e.s.s.SWAPIService] - Персонаж не найден: executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом персонажа: executor
+org.example.swapi.exceptions.NotFoundException: Персонаж не найден.
+	at org.example.swapi.service.SWAPIService.getPerson(SWAPIService.java:85) ~[main/:?]
+	at org.example.swapi.service.QuerySwitcher.handleQuery(QuerySwitcher.java:38) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.fetchResult(StarWarsGUI.java:102) ~[main/:?]
+	at org.example.swapi.ui.StarWarsGUI.lambda$start$0(StarWarsGUI.java:55) ~[main/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21.0.5-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21.0.5-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21.0.5-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-21.0.5-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-21.0.5-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.SWAPIService] - Ищем планету: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: planets и searchQuery: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:17:14] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:17:14] [WARN] [o.e.s.s.SWAPIService] - Планета не найдена: executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом планеты: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.SWAPIService] - Ищем корабль: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: starships и searchQuery: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/starships/?search=executor
+[2024-12-16 20:17:14] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:17:14] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Executor -> executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:17:59] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/people/?search=executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:17:59] [WARN] [o.e.s.s.SWAPIService] - Персонаж не найден: executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом персонажа: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Ищем планету: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: planets и searchQuery: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:17:59] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/planets/?search=executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:17:59] [WARN] [o.e.s.s.SWAPIService] - Планета не найдена: executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом планеты: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: executor -> executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.SWAPIService] - Ищем корабль: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: starships и searchQuery: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: executor
+[2024-12-16 20:17:59] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: executor
+[2024-12-16 20:17:59] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/starships/?search=executor
+[2024-12-16 20:18:00] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-16 20:18:00] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-16 20:18:00] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-16 20:18:00] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
+[2024-12-16 22:09:12] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: хуй пизда залупа йода
+[2024-12-16 22:09:21] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: пятёрка за курсач

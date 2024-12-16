@@ -37,7 +37,7 @@ public class StarWarsAPI {
 
         try {
             String encodedQuery = encodeQuery(searchQuery.toLowerCase());
-            httpGet = new HttpGet("https://swapi.dev/api/" + path + "/?search=" + encodedQuery);
+            httpGet = new HttpGet("https://swapi.py4e.com/api/" + path + "/?search=" + encodedQuery);
             logger.debug("Закодированный запрос: {}", encodedQuery);
             return getRequest(httpGet);
         } catch (UnsupportedEncodingException e) {

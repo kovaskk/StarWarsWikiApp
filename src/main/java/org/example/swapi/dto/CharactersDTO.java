@@ -51,7 +51,7 @@ public class CharactersDTO {
      *
      * @return год рождения персонажа
      */
-    public String getBirth_year() {
+    public String getBirthYear() {
         return birth_year;
     }
 
@@ -60,7 +60,7 @@ public class CharactersDTO {
      *
      * @param birth_year год рождения персонажа
      */
-    public void setBirth_year(String birth_year) {
+    public void setBirthYear(String birth_year) {
         this.birth_year = birth_year;
     }
 

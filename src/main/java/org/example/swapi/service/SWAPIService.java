@@ -89,7 +89,7 @@ public class SWAPIService {
         CharactersDTO person = new CharactersDTO();
         person.setName(personJson.get("name").getAsString());
         person.setHomeworld(personJson.get("homeworld").getAsString());
-        person.setBirth_year(personJson.get("birth_year").getAsString());
+        person.setBirthYear(personJson.get("birth_year").getAsString());
         person.setGender(personJson.get("gender").getAsString());
 
         String[] films = StreamSupport.stream(personJson.getAsJsonArray("films").spliterator(), false)
@@ -97,7 +97,7 @@ public class SWAPIService {
                     try {
                         return getNameFromUrl(filmUrl.getAsString());
                     } catch (Exception e) {
-                        logger.error("Не удалось получить название фильма по URL: {}", filmUrl, e);
+                        logger.error("Не удалось получить название фильма по URL: {}", filmUrl);
                         return "Unknown Film";
                     }
                 })
@@ -140,7 +140,7 @@ public class SWAPIService {
                     try {
                         return getNameFromUrl(filmUrl.getAsString()); // Получаем название фильма по URL
                     } catch (Exception e) {
-                        logger.error("Не удалось получить название фильма по URL: {}", filmUrl, e);
+                        logger.error("Не удалось получить название фильма по URL: {}", filmUrl);
                         return "Фильм не найден!";
                     }
                 })
