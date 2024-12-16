@@ -25,7 +25,7 @@ public class Dictionary {
         dictionary.put("хан соло", "han solo");
         dictionary.put("чубакка", "chewbacca");
         dictionary.put("р2-д2", "r2-d2");
-        dictionary.put("с-3пО", "c-3po");
+        dictionary.put("с-3по", "c-3po");
         dictionary.put("йода", "yoda");
         dictionary.put("оби-ван кеноби", "obi-wan kenobi");
         dictionary.put("палпатин", "palpatine");
