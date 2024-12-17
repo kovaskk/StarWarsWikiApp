@@ -624,3 +624,56 @@ org.example.swapi.exceptions.NotFoundException: Персонаж не найде
 [2024-12-16 20:18:00] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
 [2024-12-16 22:09:12] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: хуй пизда залупа йода
 [2024-12-16 22:09:21] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: пятёрка за курсач
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: с-3по -> c-3po
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: c-3po -> c-3po
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: c-3po
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: c-3po
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: c-3po
+[2024-12-17 00:54:41] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: c-3po
+[2024-12-17 00:54:41] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=c-3po
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/1/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/2/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/3/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:42] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/4/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-17 00:54:42] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/5/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/6/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.SWAPIService] - Персонаж успешно найден: C-3PO
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/planets/1/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/planets/1/
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/1/
+[2024-12-17 00:54:43] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-17 00:54:43] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.

@@ -30,10 +30,10 @@ dependencies {
 tasks.withType(com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar).configureEach {
     archiveBaseName.set("StarWarsWiki")
     archiveVersion.set("1.0")
-    archiveClassifier.set("") // Убираем "all" из имени файла
+    archiveClassifier.set("")
     manifest {
         attributes(
-                'Main-Class': 'org.example.swapi.ui.Launcher' // Укажите ваш основной класс
+                'Main-Class': 'org.example.swapi.ui.Launcher'
         )
     }
     mergeServiceFiles()
