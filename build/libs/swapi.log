@@ -152,3 +152,104 @@
 [2024-12-17 00:47:48] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
 [2024-12-17 00:47:48] [INFO] [o.e.s.s.SWAPIService] - Корабль успешно найден: Executor
 [2024-12-17 00:47:52] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: хуяч
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Йода -> yoda
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: yoda -> yoda
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: yoda
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: yoda
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: yoda
+[2024-12-27 17:22:33] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: yoda
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=yoda
+[2024-12-27 17:22:33] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:33] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/2/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/2/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.SWAPIService] - Персонаж успешно найден: Yoda
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/planets/28/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/planets/28/
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/28/
+[2024-12-27 17:22:34] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:22:34] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: Татуин -> tatooine
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: tatooine -> tatooine
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.SWAPIService] - Ищем персонажа: tatooine
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: people и searchQuery: tatooine
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: tatooine
+[2024-12-27 17:23:26] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: tatooine
+[2024-12-27 17:23:26] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/people/?search=tatooine
+[2024-12-27 17:23:27] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:27] [WARN] [o.e.s.s.StarWarsAPI] - Пустой результат для запроса: https://swapi.py4e.com/api/people/?search=tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:27] [WARN] [o.e.s.s.SWAPIService] - Персонаж не найден: tatooine
+[2024-12-27 17:23:27] [DEBUG] [o.e.s.s.QuerySwitcher] - Запрос не является запросом персонажа: tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.SWAPIService] - Переводим запрос: tatooine -> tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.SWAPIService] - Ищем планету: tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getBuilder с path: planets и searchQuery: tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода encodeQuery с запросом: tatooine
+[2024-12-27 17:23:27] [DEBUG] [o.e.s.s.StarWarsAPI] - Закодированный запрос: tatooine
+[2024-12-27 17:23:27] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/planets/?search=tatooine
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/1/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/1/
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/3/
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/4/
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/5/
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.SWAPIService] - Получаем название из URL: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода innerRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода getRequest с URI: https://swapi.py4e.com/api/films/6/
+[2024-12-27 17:23:28] [DEBUG] [o.e.s.s.StarWarsAPI] - Статус HTTP ответа: 200
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Запуск метода deserialize.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.StarWarsAPI] - Метод getRequest успешно завершён.
+[2024-12-27 17:23:28] [INFO] [o.e.s.s.SWAPIService] - Планета успешно найдена: Tatooine
+[2024-12-27 17:24:16] [ERROR] [o.e.s.s.SWAPIService] - Запрос не найден в словаре: Мандалор
